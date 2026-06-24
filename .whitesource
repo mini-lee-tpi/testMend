@@ -1,8 +1,16 @@
 {
+  "scanSettings": {
+    "configMode": "AUTO",
+    "baseBranches": ["main"],
+    "enableLicenseViolations": true
+  },
   "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure"
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "baseline",
+    "useMendCheckNames": true
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW"
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
   }
 }
